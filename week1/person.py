@@ -16,8 +16,22 @@ class Person:
         :param name:
         :param birthday:
         """
+
         self.name = name
         self.birthday = birthday
+
+    def __eq__(self, other):
+        """Two person objects are equal if name and birthday are the same.
+        """
+
+        # 1.  verify that other is object from same class
+        # if not isinstance(other, self.__class__):
+        #     return False
+        if other.__class__ != self.__class__:
+            return False
+        # 2.  compare self and other any way that make sense
+        
+        return False
 
     def __str__(self):
         return self.name
@@ -54,3 +68,5 @@ me = Person('Sese')
 me.greet()
 me.set_birthday(2001, 1, 13)
 print(me.age())
+
+print(dir(Person))

@@ -1,0 +1,19 @@
+Required Book
+Horstmann, Big Java, 5E or newer.
+
+We’ll describe you how to get the book in class.
+
+For the new features in Java 8 you need the 6th edition, but for everything else the 5th edition is OK.
+
+Recommended Reference
+The Java Tutorial from Oracle is great help learning how to do things in Java. There is a download link on the page to download it.
+
+The “Really Big Index” page is the most efficient way to find things in the material, so bookmark it.
+Java Tutorial on W3Schools is more concise and has many code examples.
+
+Suggested Books
+Head First Java, 2E. Entertaining, visual, and very memorable, but long.
+Modern Java in Action, 2E (2019). A very good book includes lambdas, streams, and reactive programming. Part of the Manning “In Action” series.
+Introduction to Programming in Java by David Eck, free online books covers Java and JavaFX. Updated regularly.
+Horstmann, Object-Oriented Design and Patterns, 2E (2006). Condensed from “Big Java” with more emphasis on OO concepts and design. Many SKE graduates say this is the best book. OOP students can borrow my copy.
+Wampler, The Essence of Object-Oriented Programming with Java (2001). Old, but very good explanation of O-O concepts.
