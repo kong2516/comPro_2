@@ -21,8 +21,8 @@ class Person:
     def __init__(self, name: str, birthday: date = date.today()):
         """Initiaize a new Person object.
 
-        :param name:
-        :param birthday:
+        :param name: person's name
+        :param birthday: person's birthday = today
         """
 
         self.__name = name
@@ -51,13 +51,12 @@ class Person:
         return self.__name
 
     @name.setter
-    def brand(self, name):         
+    def name(self, name):         
         self.__name = name
 
     @property
     def first_initial(self):
         return self.__name[0]
-
 
     def greet(self):
         """Greet the person ny name"""
@@ -71,6 +70,7 @@ class Person:
             print("GOOD AFTERNOON,", self.__name)
 
     def set_birthday(self, year: int, month: int, day: int):
+        # set birthday
         self.birthday = date(year, month, day)
 
     def age(self) -> int:
@@ -78,9 +78,11 @@ class Person:
 
         now = date.today()
         age = now.year - self.birthday.year - 1
+        # if birthday before today (sort by month)
         if now.month > self.birthday.month:
             age += 1
         elif now.month == self.birthday.month:
+            # if birthday before today (sort by day)
             if now.day >= self.birthday.day:
                 age += 1
         return age
