@@ -1,11 +1,7 @@
-import java.util.Date;
-import java.time.LocalDate;
-
 public class Person {
 
     protected String name;
     protected long id;
-    protected LocalDate birthday;
 
     public Person(String name, long id) {
         this.name = name;
@@ -14,21 +10,6 @@ public class Person {
 
     public String getName() {
         return this.name;
-    }
-
-    public Date getBirthday() {
-        int year = this.birthday.getYear();
-        int month = this.birthday.getMonthValue();
-        int day = this.birthday.getDayOfMonth();
-        Date birthday = new Date(year, month, day);
-        return birthday;
-    }
-
-    public void setBirthday(int year, int month, int day) {
-        this.birthday = LocalDate.of(year, month, day);
-    }
-    public int getAge() {
-        return 1;
     }
 
     // public void setName(String name) {
@@ -43,13 +24,14 @@ public class Person {
         if (obj.getClass() != this.getClass())
             return false;
         else {
+            // for this class
             Person objc = (Person) obj;
             return (objc.name.equals(this.name) && objc.id == this.id);
         }
     }
 
     public String toString() {
-        return "name: " + this.name + ", id: " + this.id;
+        return "A person named " + this.name + ", id: " + this.id;
     }
 
     // public static void main(String[] args) {
