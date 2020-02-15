@@ -1,4 +1,4 @@
-public class test1 {
+public class copyArr {
 
     public static void main(String[] args) {
         String[] a = { "cat", "dog" };

@@ -1,4 +1,4 @@
-public class test {
+public class block {
 
     int[] x = { 1, 2, 3, 4, 5 };
     String name; // null
