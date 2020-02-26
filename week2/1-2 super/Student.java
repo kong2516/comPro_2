@@ -1,8 +1,8 @@
 public class Student extends Person {
     /** Constructor for  */
-    public Student() {
-        System.out.println("Creating a new Student");
-    }
+    // public Student() {
+    //     System.out.println("Creating a new Student");
+    // }
     
     // NOT 'name'
     protected  long id;
@@ -13,6 +13,11 @@ public class Student extends Person {
     }
 
     public String toString() {
-        return this.name + " " + this.id;
+        return this.name + " " + this.id + super.getAge();
+    }
+
+    public static void main(String[] args) {
+        Student s = new Student("sese",123);
+        System.out.println(s);
     }
 }

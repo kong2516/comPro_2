@@ -1,0 +1,12 @@
+immutable - set... // setDate()
+mutable - cannot change // String
+
+Encapsulate - protect data from user
+    // nice
+    public List<Valuable> getItems() {
+        return Collection.unmodifiableList(this.money);
+    }
+    // breaking encapsulate
+    public List<Valuable> getItems() {
+        return this.money;
+    }

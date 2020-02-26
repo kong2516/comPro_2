@@ -9,4 +9,8 @@ public class Person extends Entity {
         System.out.println("Creating a new Person, Name is "+ name);
         this.name = name;
     }
+
+    public int getAge(){
+        return 1;
+    }
 }
