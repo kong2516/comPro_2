@@ -1,5 +1,5 @@
-immutable - set... // setDate()
-mutable - cannot change // String
+immutable - cannot change // String
+mutable - set... // setDate()
 
 Encapsulate - protect data from user
     // nice
