@@ -1,3 +1,5 @@
+package pattern;
+
 public class AnimalFactoryDemo {
     public static void main(String[] args) {
         // Dog without Factory

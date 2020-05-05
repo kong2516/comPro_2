@@ -1,3 +1,5 @@
+package pattern;
+
 public class StrategyDemo {
     public static void main(String[] args) {
         Context context = new Context(new Add());

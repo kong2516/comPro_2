@@ -17,9 +17,9 @@ public class MainMap {
     public static Map<String, Integer> creatMapformFile(String file){
         Map<String, Integer> map = new TreeMap<String, Integer>();
         String line;
+        String[] inline;
 
         try (BufferedReader in = new BufferedReader(new FileReader(file))) {
-            String[] inline;
             while ((line = in.readLine()) != null) {
                 inline = line.trim().split(" ");
                 // boolean isnew = true;

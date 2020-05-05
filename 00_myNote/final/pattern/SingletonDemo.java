@@ -1,3 +1,5 @@
+package pattern;
+
 public class SingletonDemo {
     //1. It should have only single instance
     //2. This instance should be available through a global access
