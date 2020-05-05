@@ -1,0 +1,14 @@
+# Sample Score Data
+1800 BugsBunny
+3240 BugsBunny
+3960 SandboxEscaper
+3140 SuperMouse
+1560 SuperMouse
+2580 Econo-mizer
+3260 SuperMouse
+700      Econo-mizer
+2800 SandboxEscaper
+2800   RoadRunner
+1440   RoadRunner
+2120 BugsBunny
+2900 RoadRunner
