@@ -25,6 +25,7 @@ public class MainMap {
                 // boolean isnew = true;
 
                 if (inline.length == 2){
+                    // นี้มันโง่
                     // for (Map.Entry entry: map.entrySet()){
 
                     //     int score = (int) entry.getValue();
@@ -36,7 +37,7 @@ public class MainMap {
                     //             map.remove(name);
                     //             isnew = true;
                     //         }
-                    //     }   
+                    //     }
                     // }
                     // if (isnew)
                     // map.put(inline[1].trim(), Integer.parseInt(inline[0].trim()));
